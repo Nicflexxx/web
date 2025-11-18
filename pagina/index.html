@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo de nico</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="logo">Lo de Nico</div>
+        <nav>
+            <ul>
+                <li><a href="#comida">Comidas</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
+                <li><a href="#kiosco">Kiosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <h1>Bievenidos a lo de nico</h1>
+        <p>El kiosco del barrio</p>
+        <button onclick="menu">Ver menu</button>
+    </section>
+
+
+    <main>
+
+<section id="comida" class="menu-section">
+    <h2>Comidas</h2>
+    <div class="menu-a">
+        <div class="item">
+            <img src="img/sand.jpg" alt="Sandwich de Milanesa">
+            <h3>Sandwich de Milanesa</h3>
+            <p>$6000</p>
+        </div>
+
+        <div class="item">
+            <img src="img/hamb.jpeg" alt="Hamburguesa">
+            <h3>Hamburguesa</h3>
+            <p>$4500</p>
+        </div>
+
+        <div class="item">
+            <img src="img/emp.png" alt="Empanadas">
+            <h3>Empanadas</h3>
+            <p>$1200</p>
+        </div>
+    </div>
+</section>
+
+<section id="bebidas" class="menu-section">
+    <h2>Bebidas</h2>
+    <div class="menu-a">
+        <div class="item">
+            <img src="img/coca.jpg" alt="Coca-cola">
+            <h3>Coca-cola</h3>
+            <p>$1800</p>
+        </div>
+
+        <div class="item">
+            <img src="img/pepsi.png" alt="Pepsi">
+            <h3>Pepsi</h3>
+            <p>$1500</p>
+        </div>
+
+        <div class="item">
+            <img src="img/manaos.jpeg" alt="Manaos">
+            <h3>Manaos 500ml</h3>
+            <p>$1200</p>
+        </div>
+    </div>
+</section>
+
+<section id="kiosco" class="menu-section">
+    <h2>Kiosco</h2>
+    <div class="menu-a">
+        <div class="item">
+            <img src="img/cofler.jpeg" alt="Chocolate Cofler">
+            <h3>Chocolate Cofler</h3>
+            <p>$1800</p>
+        </div>
+
+        <div class="item">
+            <img src="img/oreo.jpeg" alt="Chocolate Oreo">
+            <h3>Chocolate Oreo</h3>
+            <p>$1500</p>
+        </div>
+
+        <div class="item">
+            <img src="img/blanco.jpeg" alt="Chocolate Blanco">
+            <h3>Chocolate Blanco</h3>
+            <p>$1200</p>
+        </div>
+    </div>
+</section>
+
+<div class="d-flex justify-content-center gap-3 my-4">
+    <button class="btn btn-success" onclick="wb()">Whatsapp</button>
+    <button class="btn btn-danger" onclick="ig()">Instagram</button>
+    <button class="btn btn-primary" onclick="fb()">Facebook</button>
+</div>
+
+
+
+    </main>
+
+    <footer>
+        <p> © Lo de Nico 2025 © </p>
+    </footer>
+
+    <script>
+        function wb() {
+            window.open("https://wa.me/549", "_blank"); 
+        }
+        
+        function ig() {
+            window.open("https://instagram.com/nicolass.avila", "_blank");
+        }
+        
+        function fb() {
+            window.open("https://facebook.com/notengo", "_blank");
+        }
+        </script>
+        
+    
+</body>
+</html>
